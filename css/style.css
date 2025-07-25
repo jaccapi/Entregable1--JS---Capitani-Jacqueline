@@ -2,3 +2,48 @@ h1 {
     background-color: aquamarine;
 }
    
+footer {
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:auto;
+}
+
+.icon {
+  color: rgb(19, 18, 18);
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
